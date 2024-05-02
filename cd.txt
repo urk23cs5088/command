@@ -1,0 +1,33 @@
+how to git push?
+after creating and opening git bash in a folder:
+git clone <url>
+ls
+cd <repository name>
+git status
+
+add something in a note pad:
+git status
+git add -A
+git commit -m"adding new file"
+git push origin main
+
+check github:
+how to create branch?
+git status
+git checkout -b fix
+git status
+
+make changes in notepad:
+git status
+git add -A
+git commit -m"update"
+git push origin fix
+
+check if branch has been created:
+how to merge two branches?
+git checkout main
+git status
+git merge fix main
+git push origin main
+
+now the new line will be added.
